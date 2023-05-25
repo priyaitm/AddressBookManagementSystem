@@ -1,5 +1,4 @@
 package addressBook.system;
-
 public class Contact {
     private String name, email;
     private long phoneNumber;

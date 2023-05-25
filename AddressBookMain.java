@@ -7,6 +7,8 @@ public class AddressBookMain {
         // Adding contacts
         addressBook.addContact(new Contact("Priya Chauhan ","priyachauhan47365@gmail.com",7487376687L,"Lucknow"));
         addressBook.addContact(new Contact("Anuradha Mall ","anuradha7667@gmail.com",8724226348L,"Delhi"));
-
+        // Editing a contact
+        Contact newContact = new Contact("Priya Chauhan", "newpriyachauhan47365@gmail.com",9247338398L,"USA");
+        addressBook.editContact("Priya Chauhan", newContact);
     }
 }
