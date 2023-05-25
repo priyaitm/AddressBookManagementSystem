@@ -10,5 +10,13 @@ public class AddressBookMain {
         // Editing a contact
         Contact newContact = new Contact("Priya Chauhan", "newpriyachauhan47365@gmail.com",9247338398L,"USA");
         addressBook.editContact("Priya Chauhan", newContact);
+
+        // Deleting a contact
+        addressBook.deleteContact("Anuradha Mall");
+
+        // Displaying contacts
+        addressBook.displayContacts();
+
+
     }
 }
